@@ -23,7 +23,6 @@ class Bar extends Component {
     }, 50)
   }
   render() {
-    console.log("render")
     let barStyle = {
       height: 20,
       width: this.state.percentage + "%",
